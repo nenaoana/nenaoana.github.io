@@ -13,101 +13,6 @@
     </image>
     
     <item>
-      <title>Python basics</title>
-      <link>https://nenaoana.github.io/courses/example/python/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://nenaoana.github.io/courses/example/python/</guid>
-      <description>&lt;p&gt;Build a foundation in Python.&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
-&lt;h2 id=&#34;learn&#34;&gt;Learn&lt;/h2&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/rfscVS0vtbw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
-  &lt;summary&gt;What is the difference between lists and tuples?&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;Lists&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Lists are mutable - they can be changed&lt;/li&gt;
-&lt;li&gt;Slower than tuples&lt;/li&gt;
-&lt;li&gt;Syntax: &lt;code&gt;a_list = [1, 2.0, &#39;Hello world&#39;]&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Tuples&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Tuples are immutable - they can&amp;rsquo;t be changed&lt;/li&gt;
-&lt;li&gt;Tuples are faster than lists&lt;/li&gt;
-&lt;li&gt;Syntax: &lt;code&gt;a_tuple = (1, 2.0, &#39;Hello world&#39;)&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
-  &lt;summary&gt;Is Python case-sensitive?&lt;/summary&gt;
-  &lt;p&gt;Yes&lt;/p&gt;
-&lt;/details&gt;</description>
-    </item>
-    
-    <item>
-      <title>Visualization</title>
-      <link>https://nenaoana.github.io/courses/example/visualization/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://nenaoana.github.io/courses/example/visualization/</guid>
-      <description>&lt;p&gt;Learn how to visualize data with Plotly.&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
-&lt;h2 id=&#34;learn&#34;&gt;Learn&lt;/h2&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/hSPmj7mK6ng&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
-  &lt;summary&gt;When is a heatmap useful?&lt;/summary&gt;
-  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
-  &lt;summary&gt;Write Plotly code to render a bar chart&lt;/summary&gt;
-  &lt;p&gt;&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import plotly.express as px
-data_canada = px.data.gapminder().query(&amp;quot;country == &#39;Canada&#39;&amp;quot;)
-fig = px.bar(data_canada, x=&#39;year&#39;, y=&#39;pop&#39;)
-fig.show()
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/p&gt;
-&lt;/details&gt;</description>
-    </item>
-    
-    <item>
-      <title>Statistics</title>
-      <link>https://nenaoana.github.io/courses/example/stats/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://nenaoana.github.io/courses/example/stats/</guid>
-      <description>&lt;p&gt;Introduction to statistics for data science.&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
-&lt;h2 id=&#34;learn&#34;&gt;Learn&lt;/h2&gt;
-&lt;p&gt;The general form of the &lt;strong&gt;normal&lt;/strong&gt; probability density function is:&lt;/p&gt;
-&lt;p&gt;$$
-f(x) = \frac{1}{\sigma \sqrt{2\pi} } e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2}
-$$&lt;/p&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    The parameter $\mu$ is the mean or expectation of the distribution.
-$\sigma$ is its standard deviation.
-The variance of the distribution is $\sigma^{2}$.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
-  &lt;summary&gt;What is the parameter $\mu$?&lt;/summary&gt;
-  &lt;p&gt;The parameter $\mu$ is the mean or expectation of the distribution.&lt;/p&gt;
-&lt;/details&gt;</description>
-    </item>
-    
-    <item>
       <title>Example Talk</title>
       <link>https://nenaoana.github.io/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
@@ -124,6 +29,97 @@ The variance of the distribution is $\sigma^{2}$.
 &lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Outreach publications and blog posts</title>
+      <link>https://nenaoana.github.io/outreach/</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://nenaoana.github.io/outreach/</guid>
+      <description>&lt;p&gt;Ioana-Elena Oana and Hanspeter Kriesi. 2021. Asylum Policy Preferences Among the European Publics: Confict Configurations at the Transnational and Domestic Level.&amp;quot; Robert Schuman Centre for Advanced Studies Research Paper No. RSC 93.&lt;/p&gt;
+&lt;p&gt;Ioana-Elena Oana. 2021. Covid-19: spur or restraint to citizen engagement?.&amp;quot; EUIdeas. Blog post.&lt;/p&gt;
+&lt;p&gt;Ioana-Elena Oana and Hanspeter Kriesi. 2021. Transnational and domestic conflicts in asylum policies: preferences among the European publics.&amp;quot; Migration Policy Center. Blog post.&lt;/p&gt;
+&lt;p&gt;Ioana-Elena Oana and Hanspeter Kriesi. 2020. Report on Coronavirus Survey in Italy: First Two Waves.&amp;quot; EUI European Governance and Politics Programme. Online Research Report&lt;/p&gt;
+&lt;p&gt;Ioana-Elena Oana and Hanspeter Kriesi. 2020. Report on Coronavirus Survey in Italy: Comparison of First Three Waves.&amp;quot; EUI European Governance and Politics Programme. OnlineResearch Report&lt;/p&gt;
+&lt;p&gt;Thomann, Eva, Ioana-Elena Oana, and Stefan Wittwer. 2018. &amp;ldquo;Performing fuzzy and crisp set QCA with R: A user-oriented beginner&amp;rsquo;s guide.&amp;rdquo; &lt;a href=&#34;http://www.evathomann.com/links/qca-r-manual&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.evathomann.com/links/qca-r-manual&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://nenaoana.github.io/publication/</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://nenaoana.github.io/publication/</guid>
+      <description>&lt;h3 id=&#34;book&#34;&gt;Book&lt;/h3&gt;
+&lt;p&gt;Ioana-Elena Oana, Carsten Q. Schneider, and Eva Thomann. 2021. Qualitative Comparative Analysis using R: A Beginner&amp;rsquo;s Guide.&amp;quot; Cambridge: Cambridge University Press.&lt;/p&gt;
+&lt;h3 id=&#34;peer-reviewed-articles&#34;&gt;Peer-reviewed articles&lt;/h3&gt;
+&lt;p&gt;Ioana-Elena Oana, Alessandro Pellegata, and Chendi Wang. 2021. A cure worse than the disease? Exploring the health-economy trade-off during COVID-19. West European Politics 44(5-6): 1232-1257.&lt;/p&gt;
+&lt;p&gt;Ioana-Elena Oana and Carsten Q. Schneider. 2021. A Robustness Test Protocol for Applied
+QCA: Theory and R Software Application. Sociological Methods &amp;amp; Research. &lt;a href=&#34;https://doi.org/10.1177/00491241211036158&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1177/00491241211036158&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Endre Borbath, Sophia Hunger, Swen Hutter and Ioana-Elena Oana. 2021. Civic and Political Engagement during the Multifaceted COVID-19 Crisis. Swiss Political Science Review 27: 311-324.&lt;/p&gt;
+&lt;p&gt;Hanspeter Kriesi, Argyrios Altiparmakis, Abel Bojar and Ioana-Elena Oana. 2021. Debordering and re-bordering in the refugee crisis: a case of `defensive integration&#39;. Journal of European Public Policy 28(3): 331-349.&lt;/p&gt;
+&lt;p&gt;Ioana-Elena Oana. 2019. Party and protest participation patterns among students in new and old democracies. Partecipazione e Conflitto 12(1): 71-111.&lt;/p&gt;
+&lt;p&gt;Maarten and Bezouw, Anastasia Garyfallou, Ioana-Elena Oana, Sebastien Rojon. 2019. A methodology for cross-national comparative focus group research: illustrations from discussions about political protest. Quality &amp;amp; Quantity 53(6): 2719-2739.&lt;/p&gt;
+&lt;p&gt;Ioana-Elena Oana and Carsten Schneider. 2018. SetMethods: an Add-on Package for Advanced
+QCA. The R Journal 10(1): 507-533.&lt;/p&gt;
+&lt;p&gt;Marcel Verhoeven and Ioana-Elena Oana. 2017. Necessary and Sufficient Conditions for Audience Success of Media Product Brands: A field report on a two-step fsQCA with 10 conditions and 255 cases.&amp;quot; COMPASSS WP Series 89.&lt;/p&gt;
+&lt;h3 id=&#34;chapters-in-edited-volumes&#34;&gt;Chapters in edited volumes&lt;/h3&gt;
+&lt;p&gt;Ioana-Elena Oana. 2019. Reinvigorating Romania&amp;rsquo;s Civil Society: Talking About Politics and Corruption in Romania. In When Citizens Talk About Politics. Eds. Clare Saunders and Bert Klandermans. Routledge.&lt;/p&gt;
+&lt;p&gt;Maarten and Bezouw, Anastasia Garyfallou, Ioana-Elena Oana, Sebastien Rojon, Clare Saunders. 2019. Methodological appendix - Studying political talk using cross-national focus groups.&amp;quot; In When Citizens Talk About Politics. Eds. Clare Saunders and Bert Klandermans. Routledge.&lt;/p&gt;
+&lt;p&gt;Ioana-Elena Oana. 2014. &amp;ldquo;The economy of dictatorship and democracy.&amp;rdquo; In Economic and Evolutionary Approaches in Social Sciences. Ed. Mihai Ungureanu, Wolters Kluver, pp. 67-86&lt;/p&gt;
+&lt;h3 id=&#34;work-in-progress&#34;&gt;Work-in-progress&lt;/h3&gt;
+&lt;p&gt;Ioana-Elena Oana. \Policies Making Citizens: The Effect of Policy Change on Protest Participation: A Vignette Experiment. Planned submission for Political Behavior. Words: 8000.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://nenaoana.github.io/project/</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://nenaoana.github.io/project/</guid>
+      <description>&lt;h3 id=&#34;political-behaviour-and-public-opinion&#34;&gt;Political Behaviour and Public Opinion&lt;/h3&gt;
+&lt;h3 id=&#34;social-movements-and-protest&#34;&gt;Social Movements and Protest&lt;/h3&gt;
+&lt;h3 id=&#34;eu-politics-in-crises&#34;&gt;EU Politics in Crises&lt;/h3&gt;
+&lt;h3 id=&#34;research-methods&#34;&gt;Research Methods&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://nenaoana.github.io/courses/</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://nenaoana.github.io/courses/</guid>
+      <description>&lt;h2 id=&#34;graduate-and-phd-level&#34;&gt;Graduate and PhD Level:&lt;/h2&gt;
+&lt;h3 id=&#34;2019&#34;&gt;2019&lt;/h3&gt;
+&lt;p&gt;Antwerp Management School, Belgium
+Workshop: Intermediate QCA (together with Prof. Carsten Schneider)&lt;/p&gt;
+&lt;p&gt;ECPR Summer School in Methods and Techniques, Budapest, Hungary
+Joint Consultancy for Seasoned Scholar Workshops: Quantitative and Qualitative Methods (together with Prof. Tamas Rudas and Prof. Benoit Rihoux)&lt;/p&gt;
+&lt;p&gt;Timisoara Workshop on Research Methods, West University of Timisoara, Romania
+Workshop: Introduction to QCA in R&lt;/p&gt;
+&lt;p&gt;Lund University, Sweden
+Workshop: Introduction to QCA in R&lt;/p&gt;
+&lt;h3 id=&#34;2018&#34;&gt;2018&lt;/h3&gt;
+&lt;p&gt;ECPR Summer School in Methods and Techniques, Budapest, Hungary
+Instructor for Qualitative Comparative Analysis and Fuzzy-Sets&lt;/p&gt;
+&lt;p&gt;ECPR Summer School in Methods and Techniques, Budapest, Hungary
+Joint Consultancy for Seasoned Scholar Workshops: Qualitative and Multi-Method (together with Prof. Benoit Rihoux)&lt;/p&gt;
+&lt;p&gt;University of Exeter Q-Step Centre, Exeter, UK
+Workshop: Introduction to Qualitative Comparative Analysis&lt;/p&gt;
+&lt;p&gt;European University Institute, Florence, Italy
+Instructor for Qualitative Comparative Analysis (QCA) with R (with Dr. Eva Thomann)&lt;/p&gt;
+&lt;h3 id=&#34;2015-2018&#34;&gt;2015-2018&lt;/h3&gt;
+&lt;p&gt;ECPR Winter School in Methods and Techniques, Bamberg, Germany
+Teaching Assistant for Advanced Topics in Set-Theoretic Methods and QCA (Prof. Carsten Schneider)
+- 4 times (02/2015, 02/2016, 03/2017, 03/2018);
+- included teaching Introduction to R and teaching lab seminars in R;&lt;/p&gt;
+&lt;h3 id=&#34;2013-2016&#34;&gt;2013-2016&lt;/h3&gt;
+&lt;p&gt;ECPR Summer School in Methods and Techniques
+Teaching Assistant for Qualitative Comparative Analysis and Fuzzy-Sets (Prof. Carsten Schneider, Prof. Patrick Emmenegger, Dr. Patrick Melo)
+- 2 times (08/2016, 08/2017 - Budapest, Hungary)
+- 3 times (07/2013, 07/2014, 07/2015 - Ljubljana, Slovenia)
+- included teaching Introduction to R and teaching lab seminars in R;&lt;/p&gt;
 </description>
     </item>
     
@@ -282,7 +278,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-728561349&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-713985246&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -292,7 +288,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-728561349&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-713985246&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -519,20 +515,6 @@ You found me!
     </item>
     
     <item>
-      <title>An example preprint / working paper</title>
-      <link>https://nenaoana.github.io/publication/preprint/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://nenaoana.github.io/publication/preprint/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Display Jupyter Notebooks with Academic</title>
       <link>https://nenaoana.github.io/post/jupyter/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
@@ -722,65 +704,6 @@ $$&lt;/p&gt;
 &lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>External Project</title>
-      <link>https://nenaoana.github.io/project/external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://nenaoana.github.io/project/external-project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Internal Project</title>
-      <link>https://nenaoana.github.io/project/internal-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://nenaoana.github.io/project/internal-project/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>An example journal article</title>
-      <link>https://nenaoana.github.io/publication/journal-article/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>https://nenaoana.github.io/publication/journal-article/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>An example conference paper</title>
-      <link>https://nenaoana.github.io/publication/conference-paper/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://nenaoana.github.io/publication/conference-paper/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
