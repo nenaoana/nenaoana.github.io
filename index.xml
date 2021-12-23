@@ -117,7 +117,7 @@
 &lt;/ul&gt;
 &lt;h4 id=&#34;special-issues&#34;&gt;Special issues&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Ioana-Elena Oana, Stefano Ronchi, and Zbigniew Truchlewski. EU polity resilience in times of COVID? Solidarity, legitimacy, and polity maintenance. &lt;em&gt;Special Issue accepted at Journal of European Integation&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ioana-Elena Oana, Stefano Ronchi, and Zbigniew Truchlewski. EU polity resilience in times of COVID? Solidarity, legitimacy, and polity maintenance. &lt;em&gt;Special Issue accepted at Journal of European Integration&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;papers-in-peer-review&#34;&gt;Papers in peer review&lt;/h4&gt;
 &lt;ul&gt;
@@ -138,11 +138,11 @@ support for democracy in times of democratic restrictions.&lt;/p&gt;
 &lt;p&gt;Abel Bojar, Anna Kyriazi, Zbigniew Truchlewski and Ioana-Elena Oana. Policy Process Analysis: an introduction to a novel method.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;chapters-in-preparation&#34;&gt;Chapters in preparation&lt;/h4&gt;
+&lt;h4 id=&#34;chapters-in-progress&#34;&gt;Chapters in progress&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Ioana-Elena Oana. Qualitative Comparative Analysis. In &lt;em&gt;Oxford Handbook: Doing Good Qualitative Research&lt;/em&gt;. Eds. Jennifer Cyr and Sara Wallace Goodman. Oxford University Press.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;manuscripts-in-progress&#34;&gt;Manuscripts in progress&lt;/h4&gt;
+&lt;h4 id=&#34;papers-in-progress&#34;&gt;Papers in progress&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Ioana-Elena Oana. Policy output legitimacy in the refugee crisis: A survey experiment on the consequences of asylum policy for EU support in Europe.&lt;/p&gt;
@@ -415,7 +415,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-451789326&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-438126795&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -425,7 +425,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-451789326&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-438126795&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
