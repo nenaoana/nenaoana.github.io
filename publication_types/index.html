@@ -76,7 +76,7 @@
 
   
 
-  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="https://nenaoana.github.io/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
 
   
   
@@ -248,35 +248,74 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.4d3fddba2b325f129185bb42290fa344.css" />
-
-  
-
-
-
-  
-
-  
+  <link rel="stylesheet" href="https://nenaoana.github.io/css/wowchemy.4d3fddba2b325f129185bb42290fa344.css" />
 
   
 
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F5XS1R7NR5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-F5XS1R7NR5', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+  
+
+  
+
+
+
+
   
   
   
 
   
-    <link rel="alternate" href="/publication_types/index.xml" type="application/rss+xml" title="Ioana-Elena Oana" />
+    <link rel="alternate" href="https://nenaoana.github.io/publication_types/index.xml" type="application/rss+xml" title="Ioana-Elena Oana" />
   
 
   
-    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="manifest" href="https://nenaoana.github.io/manifest.webmanifest" />
   
 
-  <link rel="icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_3.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_3.png" />
+  <link rel="icon" type="image/png" href="https://nenaoana.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="https://nenaoana.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_3.png" />
 
   <link rel="canonical" href="https://nenaoana.github.io/publication_types/" />
 
@@ -336,7 +375,7 @@
   
   
   
-  <script src="/js/wowchemy-init.min.2da3b1fa37e894630bf6de39b1b694b3.js"></script>
+  <script src="https://nenaoana.github.io/js/wowchemy-init.min.2da3b1fa37e894630bf6de39b1b694b3.js"></script>
 
   
 
@@ -399,7 +438,7 @@
 
     
     <div class="d-none d-lg-inline-flex">
-      <a class="navbar-brand" href="/">Ioana-Elena Oana</a>
+      <a class="navbar-brand" href="https://nenaoana.github.io/">Ioana-Elena Oana</a>
     </div>
     
 
@@ -412,7 +451,7 @@
 
     
     <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/">Ioana-Elena Oana</a>
+      <a class="navbar-brand" href="https://nenaoana.github.io/">Ioana-Elena Oana</a>
     </div>
     
 
@@ -455,7 +494,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#about"><span>About</span></a>
+          <a class="nav-link " href="https://nenaoana.github.io/#about"><span>About</span></a>
         </li>
 
         
@@ -485,7 +524,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/project/"><span>Research</span></a>
+          <a class="nav-link " href="https://nenaoana.github.io/project/"><span>Research</span></a>
         </li>
 
         
@@ -515,7 +554,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/publication/"><span>Publications</span></a>
+          <a class="nav-link " href="https://nenaoana.github.io/publication/"><span>Publications</span></a>
         </li>
 
         
@@ -545,7 +584,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/courses/"><span>Teaching</span></a>
+          <a class="nav-link " href="https://nenaoana.github.io/courses/"><span>Teaching</span></a>
         </li>
 
         
@@ -575,7 +614,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/outreach/"><span>Outreach and Blogs</span></a>
+          <a class="nav-link " href="https://nenaoana.github.io/outreach/"><span>Outreach and Blogs</span></a>
         </li>
 
         
@@ -605,7 +644,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/software/"><span>Software</span></a>
+          <a class="nav-link " href="https://nenaoana.github.io/software/"><span>Software</span></a>
         </li>
 
         
@@ -635,7 +674,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/uploads/cv.pdf"><span>CV</span></a>
+          <a class="nav-link " href="https://nenaoana.github.io/uploads/cv.pdf"><span>CV</span></a>
         </li>
 
         
@@ -672,7 +711,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          <a class="nav-link " href="https://nenaoana.github.io/#contact"><span>Contact</span></a>
         </li>
 
         
@@ -854,7 +893,7 @@
       
 
     
-    <script src="/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js"></script>
+    <script src="https://nenaoana.github.io/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js"></script>
 
     
     
@@ -946,7 +985,7 @@
       
     
     
-    <script src="/en/js/wowchemy.min.7cd6ec29d281a73c92a2958a1584aadc.js"></script>
+    <script src="https://nenaoana.github.io/en/js/wowchemy.min.7cd6ec29d281a73c92a2958a1584aadc.js"></script>
 
     
   <script async defer src="https://buttons.github.io/buttons.js"></script>

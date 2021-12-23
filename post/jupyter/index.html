@@ -76,7 +76,7 @@
 
   
 
-  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="https://nenaoana.github.io/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
 
   
   
@@ -248,21 +248,60 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.4d3fddba2b325f129185bb42290fa344.css" />
-
-  
-
-
-
-  
-
-  
+  <link rel="stylesheet" href="https://nenaoana.github.io/css/wowchemy.4d3fddba2b325f129185bb42290fa344.css" />
 
   
 
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F5XS1R7NR5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-F5XS1R7NR5', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+  
+
+  
+
+
+
+
   
   
   
@@ -270,11 +309,11 @@
   
 
   
-    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="manifest" href="https://nenaoana.github.io/manifest.webmanifest" />
   
 
-  <link rel="icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_3.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_3.png" />
+  <link rel="icon" type="image/png" href="https://nenaoana.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="https://nenaoana.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_3.png" />
 
   <link rel="canonical" href="https://nenaoana.github.io/post/jupyter/" />
 
@@ -388,7 +427,7 @@
   
   
   
-  <script src="/js/wowchemy-init.min.2da3b1fa37e894630bf6de39b1b694b3.js"></script>
+  <script src="https://nenaoana.github.io/js/wowchemy-init.min.2da3b1fa37e894630bf6de39b1b694b3.js"></script>
 
   
 
@@ -451,7 +490,7 @@
 
     
     <div class="d-none d-lg-inline-flex">
-      <a class="navbar-brand" href="/">Ioana-Elena Oana</a>
+      <a class="navbar-brand" href="https://nenaoana.github.io/">Ioana-Elena Oana</a>
     </div>
     
 
@@ -464,7 +503,7 @@
 
     
     <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/">Ioana-Elena Oana</a>
+      <a class="navbar-brand" href="https://nenaoana.github.io/">Ioana-Elena Oana</a>
     </div>
     
 
@@ -507,7 +546,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#about"><span>About</span></a>
+          <a class="nav-link " href="https://nenaoana.github.io/#about"><span>About</span></a>
         </li>
 
         
@@ -537,7 +576,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/project/"><span>Research</span></a>
+          <a class="nav-link " href="https://nenaoana.github.io/project/"><span>Research</span></a>
         </li>
 
         
@@ -567,7 +606,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/publication/"><span>Publications</span></a>
+          <a class="nav-link " href="https://nenaoana.github.io/publication/"><span>Publications</span></a>
         </li>
 
         
@@ -597,7 +636,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/courses/"><span>Teaching</span></a>
+          <a class="nav-link " href="https://nenaoana.github.io/courses/"><span>Teaching</span></a>
         </li>
 
         
@@ -627,7 +666,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/outreach/"><span>Outreach and Blogs</span></a>
+          <a class="nav-link " href="https://nenaoana.github.io/outreach/"><span>Outreach and Blogs</span></a>
         </li>
 
         
@@ -657,7 +696,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/software/"><span>Software</span></a>
+          <a class="nav-link " href="https://nenaoana.github.io/software/"><span>Software</span></a>
         </li>
 
         
@@ -687,7 +726,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/uploads/cv.pdf"><span>CV</span></a>
+          <a class="nav-link " href="https://nenaoana.github.io/uploads/cv.pdf"><span>CV</span></a>
         </li>
 
         
@@ -724,7 +763,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          <a class="nav-link " href="https://nenaoana.github.io/#contact"><span>Contact</span></a>
         </li>
 
         
@@ -838,7 +877,7 @@
     
 
   <span class="author-highlighted">
-      <a href="/author/dr.-ioana-elena-oana/">Dr. Ioana-Elena Oana</a></span>
+      <a href="https://nenaoana.github.io/author/dr.-ioana-elena-oana/">Dr. Ioana-Elena Oana</a></span>
   </div>
   
   
@@ -887,7 +926,7 @@
 
 <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 313px;">
   <div style="position: relative">
-    <img src="/post/jupyter/featured_hub1daa031c2af6888ff37bd93eb033a1a_71549_720x0_resize_lanczos_3.png" width="720" height="313" alt="" class="featured-image">
+    <img src="https://nenaoana.github.io/post/jupyter/featured_hub1daa031c2af6888ff37bd93eb033a1a_71549_720x0_resize_lanczos_3.png" width="720" height="313" alt="" class="featured-image">
     
   </div>
 </div>
@@ -1075,7 +1114,7 @@ date: 2019-09-01
   <div class="media author-card content-widget-hr">
     
       
-      <a href="https://nenaoana.github.io/"><img class="avatar mr-3 avatar-circle" src="/author/dr.-ioana-elena-oana/avatar_hu9475e40123017607cf3e014e405fbc8c_155965_270x270_fill_q75_lanczos_center.jpg" alt="Dr. Ioana-Elena Oana"></a>
+      <a href="https://nenaoana.github.io/"><img class="avatar mr-3 avatar-circle" src="https://nenaoana.github.io/author/dr.-ioana-elena-oana/avatar_hu9475e40123017607cf3e014e405fbc8c_155965_270x270_fill_q75_lanczos_center.jpg" alt="Dr. Ioana-Elena Oana"></a>
     
 
     <div class="media-body">
@@ -1096,7 +1135,7 @@ date: 2019-09-01
       
     
     <li>
-      <a href="/#contact" >
+      <a href="https://nenaoana.github.io/#contact" >
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -1260,7 +1299,7 @@ date: 2019-09-01
       
 
     
-    <script src="/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js"></script>
+    <script src="https://nenaoana.github.io/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js"></script>
 
     
     
@@ -1352,7 +1391,7 @@ date: 2019-09-01
       
     
     
-    <script src="/en/js/wowchemy.min.7cd6ec29d281a73c92a2958a1584aadc.js"></script>
+    <script src="https://nenaoana.github.io/en/js/wowchemy.min.7cd6ec29d281a73c92a2958a1584aadc.js"></script>
 
     
   <script async defer src="https://buttons.github.io/buttons.js"></script>

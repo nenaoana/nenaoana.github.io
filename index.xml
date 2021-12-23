@@ -106,7 +106,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;work-in-progress&#34;&gt;Work-in-progress&lt;/h3&gt;
-&lt;h4 id=&#34;book-manuscript&#34;&gt;Book manuscript&lt;/h4&gt;
+&lt;h4 id=&#34;book-manuscripts&#34;&gt;Book manuscripts&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Hanspeter Kriesi, Argyrios Altiparmakis, Abel Bojar, and Ioana-Elena Oana. Coming to terms with the refugee crisis in the EU. &lt;em&gt;Manuscript finalized for submission at Cambridge University Press.&lt;/em&gt;&lt;/p&gt;
@@ -115,7 +115,7 @@
 &lt;p&gt;Ioana-Elena Oana. Collective Mobilization and Dynamic Representation: From Citizens to Policy and Back Again. &lt;em&gt;Manuscript in progress (based on PhD thesis monograph).&lt;/em&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;special-issue&#34;&gt;Special issue&lt;/h4&gt;
+&lt;h4 id=&#34;special-issues&#34;&gt;Special issues&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Ioana-Elena Oana, Stefano Ronchi, and Zbigniew Truchlewski. EU polity resilience in times of COVID? Solidarity, legitimacy, and polity maintenance. &lt;em&gt;Special Issue accepted at Journal of European Integation&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -415,7 +415,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-295617384&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-862931457&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -425,7 +425,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-295617384&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-862931457&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
