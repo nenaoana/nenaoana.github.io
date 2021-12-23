@@ -166,9 +166,29 @@ support for democracy in times of democratic restrictions.&lt;/p&gt;
       <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
       <guid>https://nenaoana.github.io/project/</guid>
       <description>&lt;h3 id=&#34;political-behaviour-and-public-opinion&#34;&gt;Political Behaviour and Public Opinion&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;My research agenda is focused on political representation, political behaviour, and public opinion. My recent and ongoing publications explore public attitudes in the COVID and refugee crises such as policy preferences, performance evaluations of governments and the EU, including their political drivers and their electoral consequences.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;social-movements-and-protest&#34;&gt;Social Movements and Protest&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Within the SOLID project, I am developing semi-automated solutions for protest event analysis. I have developed a pipeline for the extraction and automatic selection (using machine learning) of newswire documents for the creation of a dataset covering 30 European countries over the last six years. I am using this newly created dataset in several of my work-in-progress publications studying dynamics of collective mobilization within the COVID crisis and the refugee crisis.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In my PhD dissertation I looked at the agenda-setting and policy impact of public claims making over time (2000-2014) and space (European democracies).In doing so, I have engaged both with investigating supply-side politics (issue positions of political parties – party manifestos, intensity of legislation in certain issue areas – comparative policy agendas) and demand-side politics (protest event analysis – automated text analysis, public opinion data – surveys and experiments), while theorizing about the links between the two.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;eu-politics-in-crises&#34;&gt;EU Politics in Crises&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Much of my current work is dedicated to studying EU crises&#39; politics and policies. I have a co-authored book manuscript investigating the political and policy-making dynamics activated by the refugee crisis on both the supply and the demand side. Additionally, I study political attitudes related to the both the COVID and refugee crises in several of my publications. Specifically, these publications inquire into the output legitimacy of national governments and the EU, and look at general conflict lines within the European publics.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;research-methods&#34;&gt;Research Methods&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;My research within the SOLID project focuses on developing tools for the automated collection and analysis of protest event data (PEA) using text-as-data and machine learning techniques.&lt;/li&gt;
+&lt;li&gt;I have been responsible for designing, collecting, and analysing several European-wide surveys (3 major surveys covering between 8 and 16 countries), all of them also comprising of survey experiments.&lt;/li&gt;
+&lt;li&gt;My continued interest in social science methodology and in making user-friendly tools available to the wider research community pushed me to develop the SetMethods R package. This has by now become one of the default software options for QCA (about ~45,000 CRAN downloads, published in The R Journal - 2018).&lt;/li&gt;
+&lt;li&gt;My book, co-authored with Carsten Q. Schneider and Eva Thomann, ‘Qualitative Comparative Analysis (QCA) using R: A Gentle Introduction’ has just been published with Cambridge University Press.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -415,7 +435,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-153926847&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-924781635&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -425,7 +445,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-153926847&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-924781635&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
