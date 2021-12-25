@@ -93,7 +93,7 @@
 &lt;h3 id=&#34;other-publications-and-chapters-in-edited-volumes&#34;&gt;Other publications and chapters in edited volumes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Ioana-Elena Oana and Hanspeter Kriesi. 2021. Asylum Policy Preferences Among the European Publics: Confict Configurations at the Transnational and Domestic Level.&amp;quot; &lt;a href=&#34;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3987055&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Robert Schuman Centre for Advanced Studies Research Paper No. RSC 93.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hanspeter Kriesi and Ioana-Elena Oana. 2021. Asylum Policy Preferences Among the European Publics: Confict Configurations at the Transnational and Domestic Level.&amp;quot; &lt;a href=&#34;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3987055&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Robert Schuman Centre for Advanced Studies Research Paper No. RSC 93.&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Ioana-Elena Oana. 2019. Reinvigorating Romania&amp;rsquo;s Civil Society: Talking About Politics and Corruption in Romania. In &lt;em&gt;When Citizens Talk About Politics&lt;/em&gt;. Eds. Clare Saunders and Bert Klandermans. &lt;a href=&#34;https://www.routledge.com/When-Citizens-Talk-About-Politics/Saunders-Klandermans/p/book/9780367726874&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Routledge.&lt;/a&gt;&lt;/p&gt;
@@ -438,7 +438,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-729156834&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-967284351&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -448,7 +448,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-729156834&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-967284351&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
