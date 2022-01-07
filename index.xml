@@ -117,7 +117,7 @@
 &lt;/ul&gt;
 &lt;h4 id=&#34;special-issues&#34;&gt;Special issues&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Ioana-Elena Oana, Stefano Ronchi, and Zbigniew Truchlewski. EU polity resilience in times of COVID? Solidarity, legitimacy, and polity maintenance. &lt;em&gt;Special Issue accepted at Journal of European Integration&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ioana-Elena Oana, Stefano Ronchi, and Zbigniew Truchlewski. EU polity resilience in times of COVID? Solidarity, legitimacy, and polity maintenance. &lt;em&gt;Special Issue accepted at Comparative European Politics&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;papers-in-peer-review&#34;&gt;Papers in peer review&lt;/h4&gt;
 &lt;ul&gt;
@@ -438,7 +438,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-967284351&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-142589736&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -448,7 +448,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-967284351&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-142589736&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
