@@ -114,18 +114,14 @@ taining support for the European polity after the Russian invasion of Ukraine&am
 &lt;p&gt;Ioana-Elena Oana and Abel Bojar. 2023. Populism, Anti-technocratic Attitudes, and COVID-19 related Conspiracy Beliefs across Europe. &lt;a href=&#34;https://link.springer.com/article/10.1057/s41295-023-00331-x&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Comparative European Politics.&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Chendi Wang, Abel Bojar, Ioana-Elena Oana, and Zbigniew Truchlewski. 2023. Emergency politics, mass sentiment, and the EU during COVID. [&lt;em&gt;Comparative European Politics.&lt;/em&gt;](https://link.
-springer.com/article/10.1057/s41295-023-00330-y)&lt;/p&gt;
+&lt;p&gt;Chendi Wang, Abel Bojar, Ioana-Elena Oana, and Zbigniew Truchlewski. 2023. Emergency politics, mass sentiment, and the EU during COVID. &lt;a href=&#34;https://link.springer.com/article/10.1057/s41295-023-00330-y&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Comparative European Politics.&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Hanspeter Kriesi and Ioana-Elena Oana. 2022. Protest in unlikely times: dynamics of collective mobilization in Europe during the COVID-19 crisis. [&lt;em&gt;Journal of European Public Policy.&lt;/em&gt;](https:
-//doi.org/10.1080/13501763.2022.2140819)&lt;/p&gt;
+&lt;p&gt;Hanspeter Kriesi and Ioana-Elena Oana. 2022. Protest in unlikely times: dynamics of collective mobilization in Europe during the COVID-19 crisis. &lt;a href=&#34;https://doi.org/10.1080/13501763.2022.2140819&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Journal of European Public Policy.&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Abel Bojar, Anna Kyriazi, Ioana-Elena Oana, and Zbigniew Truchlewski. 2023. &amp;ldquo;A Novel Method
-for Studying Policymaking: Policy Process Analysis (PPA) Applied to the Refugee Crisis&amp;rdquo;. [Robert
-Schuman Centre for Advanced Studies Research Paper No. RSC 24/2023.](&lt;a href=&#34;https://papers.ssrn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://papers.ssrn&lt;/a&gt;.
-com/sol3/papers.cfm?abstract_id=4456925#)&lt;/p&gt;
+for Studying Policymaking: Policy Process Analysis (PPA) Applied to the Refugee Crisis&amp;rdquo;. &lt;a href=&#34;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4456925#&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Robert Schuman Centre for Advanced Studies Research Paper No. RSC 24/2023.&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Ioana-Elena Oana, Alessandro Pellegata, and Chendi Wang. 2021. A cure worse than the disease? Exploring the health-economy trade-off during COVID-19. &lt;a href=&#34;https://www.tandfonline.com/doi/full/10.1080/01402382.2021.1933310&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;West European Politics&lt;/em&gt; 44(5-6): 1232-1257.&lt;/a&gt;&lt;/p&gt;
@@ -510,7 +506,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-634927185&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-425687391&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -520,7 +516,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-634927185&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-425687391&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
